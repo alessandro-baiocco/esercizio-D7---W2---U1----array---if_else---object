@@ -115,8 +115,10 @@ if (num1_E7 > num2_E7 && num2_E7 > num3_E7) {
   console.log("esercizio 7 : l'ordine è ", num2_E7, num1_E7, num3_E7);
 } else if (num3_E7 > num1_E7 && num1_E7 > num2_E7) {
   console.log("esercizio 7 : l'ordine è ", num3_E7, num1_E7, num2_E7);
-} else {
+} else if (num3_E7 > num2_E7 && num2_E7 > num1_E7) {
   console.log("esercizio 7 : l'ordine è ", num3_E7, num2_E7, num1_E7);
+} else if ((num1_E7 = num2_E7) || (num2_E7 = num3_E7) || (num1_E7 = num3_E7)) {
+  console.log(num1_E7 > num3_E7 && num3_E7 > num2_E7);
 }
 
 //------------------------------------------------------------
