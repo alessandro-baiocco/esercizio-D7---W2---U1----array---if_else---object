@@ -236,7 +236,7 @@ const exercize14 = [];
 // exercize14.push(9);
 // exercize14.push(10);
 
-exercize14.unshift(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+exercize14.unshift(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 console.log("esercizio 14 :", exercize14);
 
@@ -247,5 +247,5 @@ console.log("esercizio 14 :", exercize14);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 //console.log(exercize14.lenght)
-exercize14[10] = 100;
+exercize14[9] = 100;
 console.log("esercizio 15", exercize14);
