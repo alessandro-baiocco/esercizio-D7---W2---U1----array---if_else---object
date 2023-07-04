@@ -105,11 +105,11 @@ const num1_E7 = 71;
 const num2_E7 = 4;
 const num3_E7 = 12;
 
-if (num1_E7 > num2_E7 && num2_E7 > num3_E7) {
+if (num1_E7 >= num2_E7 && num2_E7 > num3_E7) {
   console.log("esercizio 7 : l'ordine è ", num1_E7, num2_E7, num3_E7);
-} else if (num1_E7 > num3_E7 && num3_E7 > num2_E7) {
+} else if (num1_E7 >= num3_E7 && num3_E7 > num2_E7) {
   console.log("esercizio 7 : l'ordine è ", num1_E7, num3_E7, num2_E7);
-} else if (num2_E7 > num3_E7 && num3_E7 > num1_E7) {
+} else if (num2_E7 >= num3_E7 && num3_E7 > num1_E7) {
   console.log("esercizio 7 : l'ordine è ", num2_E7, num3_E7, num1_E7);
 } else if (num2_E7 > num1_E7 && num2_E7 > num3_E7) {
   console.log("esercizio 7 : l'ordine è ", num2_E7, num1_E7, num3_E7);
@@ -117,12 +117,6 @@ if (num1_E7 > num2_E7 && num2_E7 > num3_E7) {
   console.log("esercizio 7 : l'ordine è ", num3_E7, num1_E7, num2_E7);
 } else if (num3_E7 > num2_E7 && num2_E7 > num1_E7) {
   console.log("esercizio 7 : l'ordine è ", num3_E7, num2_E7, num1_E7);
-} else if ((num1_E7 = num2_E7 && num3_E7 > num2_E7)) {
-  console.log("esercizio 7 : l'ordine è", num3_E7, num2_E7, num1_E7);
-} else if ((num1_E7 = num3_E7 && num2_E7 > num3_E7)) {
-  console.log("esercizio 7 : l'ordine è", num2_E7, num1_E7, num3_E7);
-} else if ((num2_E7 = num3_E7 && num1_E7 > num3_E7)) {
-  console.log("esercizio 7 : l'ordine è", num1_E7, num3_E7, num2_E7);
 }
 
 //------------------------------------------------------------
@@ -246,6 +240,6 @@ console.log("esercizio 14 :", exercize14);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-//console.log(exercize14.lenght)
+//console.log(exercize14.length)
 exercize14[9] = 100;
 console.log("esercizio 15", exercize14);
