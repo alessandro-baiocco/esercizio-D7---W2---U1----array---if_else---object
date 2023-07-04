@@ -68,7 +68,7 @@ console.log(
 
 let totalShoppingCart = 10;
 
-if (totalShoppingCart > 50) {
+if (totalShoppingCart >= 50) {
   console.log("esercizio 5 : la spedizione è gratutita il totale è", totalShoppingCart);
 } else {
   console.log("esercizio 5 : addebitati 10€ di spedizione il totale è", totalShoppingCart + 10);
@@ -85,7 +85,7 @@ if (totalShoppingCart > 50) {
 
 totalShoppingCart = 10;
 
-if (totalShoppingCart > 50) {
+if (totalShoppingCart >= 50) {
   console.log("esercizio 6 : bonus black friday , la spedizione è gratutita, il totale è", (totalShoppingCart / 5) * 4);
 } else {
   console.log("esercizio 6 : addebitati 10€ di spedizione il totale è", (totalShoppingCart / 5) * 4 + 10);
@@ -117,8 +117,12 @@ if (num1_E7 > num2_E7 && num2_E7 > num3_E7) {
   console.log("esercizio 7 : l'ordine è ", num3_E7, num1_E7, num2_E7);
 } else if (num3_E7 > num2_E7 && num2_E7 > num1_E7) {
   console.log("esercizio 7 : l'ordine è ", num3_E7, num2_E7, num1_E7);
-} else if ((num1_E7 = num2_E7) || (num2_E7 = num3_E7) || (num1_E7 = num3_E7)) {
-  console.log(num1_E7 > num3_E7 && num3_E7 > num2_E7);
+} else if ((num1_E7 = num2_E7 && num3_E7 > num2_E7)) {
+  console.log("esercizio 7 : l'ordine è", num3_E7, num2_E7, num1_E7);
+} else if ((num1_E7 = num3_E7 && num2_E7 > num3_E7)) {
+  console.log("esercizio 7 : l'ordine è", num2_E7, num1_E7, num3_E7);
+} else if ((num2_E7 = num3_E7 && num1_E7 > num3_E7)) {
+  console.log("esercizio 7 : l'ordine è", num1_E7, num3_E7, num2_E7);
 }
 
 //------------------------------------------------------------
