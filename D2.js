@@ -66,7 +66,7 @@ console.log(
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-totalShoppingCart = 10;
+const totalShoppingCart = 10;
 
 if (totalShoppingCart > 50) {
   console.log("esercizio 5 : la spedizione è gratutita il totale è", totalShoppingCart);
@@ -127,8 +127,8 @@ if (num1_E7 > num2_E7 && num2_E7 > num3_E7) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-num2Esercize8 = 8;
-STR1Esercize8 = "Franco l'idraulico";
+const num2Esercize8 = 8;
+const STR1Esercize8 = "Franco l'idraulico";
 
 console.log(
   typeof num2Esercize8 === "number"
@@ -143,7 +143,7 @@ console.log(
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-num1Esercize9 = 40;
+const num1Esercize9 = 40;
 console.log(num1Esercize9 % 2 === 0 ? "esercizio 9 : il numero è pari" : "esercizio 9 : il numero è dispari");
 
 //-------------------------------------------
