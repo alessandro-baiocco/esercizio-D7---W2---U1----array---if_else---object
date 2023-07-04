@@ -7,10 +7,18 @@
 const num1Esercize1 = 10;
 const num2Esercize1 = 15;
 
-console.log(
-  "esercizio 1 :",
-  num1Esercize1 > num2Esercize1 ? "il primo valore è più grande" : "il secondo valore è più grande"
-);
+// console.log(
+//   "esercizio 1 :",
+//   num1Esercize1 > num2Esercize1 ? "il primo valore è più grande" : "il secondo valore è più grande"
+// );
+
+if (num1Esercize1 > num2Esercize1) {
+  console.log("il primo valore è più grande");
+} else if ((num2Esercize1 = num1Esercize1)) {
+  console.log("i 2 valori sono uguali");
+} else {
+  console.log("il secondo valore è più grande");
+}
 
 // --------------------------------------------------------------------
 
