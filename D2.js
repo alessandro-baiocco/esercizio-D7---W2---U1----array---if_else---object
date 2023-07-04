@@ -66,7 +66,7 @@ console.log(
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const totalShoppingCart = 10;
+let totalShoppingCart = 10;
 
 if (totalShoppingCart > 50) {
   console.log("esercizio 5 : la spedizione è gratutita il totale è", totalShoppingCart);
